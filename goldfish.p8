@@ -90,8 +90,17 @@ function _drawtitlescreen()
   circfill(64,64,circleradius-1,10)
   circfill(64,64,circleradius-2,12)
 
+  circfill(64,64,circleradius-10,7)
+  circfill(64,64,circleradius-11,10)
+  circfill(64,64,circleradius-12,12)
+
+  circfill(64,64,circleradius-25,7)
+  circfill(64,64,circleradius-35,10)
+  circfill(64,64,circleradius-45,12)
+
+
   circleradius+=1
-  print("goldfish action",64,64,1)
+  print("goldfish action",8,8,1)
   if (circleradius>128) circleradius=0
 
 
@@ -829,4 +838,3 @@ __music__
 00 41424344
 00 41424344
 00 41424344
-
